@@ -111,7 +111,6 @@ footer a:hover {
 .charactersGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
   padding: 2%;
   margin-bottom: 3%;
 }
@@ -137,4 +136,35 @@ footer a:hover {
   margin-top: 20px;
   font-size: 25px;
   font-weight: bold;
+}
+
+/*
+========================================
+  submenu character pages
+========================================
+*/
+
+.submenuGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.submenuBox {
+  text-align: start;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.submenuBox img {
+  width: 80%;
+  margin-top: 8%;
+  border-radius: 20px;
+}
+
+.submenuBox section {
+  font-size: 20px;
+  text-align: justify;
 }
