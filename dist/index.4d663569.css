@@ -134,7 +134,7 @@ footer a:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 5%;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   display: grid;
 }
 
@@ -147,12 +147,22 @@ footer a:hover {
 .submenuBox img {
   border-radius: 20px;
   width: 80%;
-  margin-top: 8%;
+  margin-top: 13%;
 }
 
 .submenuBox section {
   text-align: justify;
   font-size: 20px;
+}
+
+.aboutLink {
+  color: #000;
+  text-decoration: none;
+}
+
+.aboutLink:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
