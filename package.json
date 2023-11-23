@@ -3,9 +3,6 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    //"dev":"parcel",
-    // "start": "npm-run-all clean parcel:dev",
-    // "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
     "clean": "rimraf dist .parcel-cache"
