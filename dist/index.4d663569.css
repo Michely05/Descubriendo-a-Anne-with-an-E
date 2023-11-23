@@ -107,6 +107,14 @@ footer a:hover {
   display: grid;
 }
 
+.charactersGrid a {
+  color: #945600;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .box {
   text-align: center;
   border-radius: 8px;
@@ -124,10 +132,8 @@ footer a:hover {
   transform: scale(1.1);
 }
 
-.box p {
-  margin-top: 20px;
-  font-size: 25px;
-  font-weight: bold;
+.box p:hover {
+  color: #000;
 }
 
 .submenuGrid {
@@ -163,6 +169,41 @@ footer a:hover {
 .aboutLink:hover {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.tituloArgumento {
+  margin-top: 4%;
+  margin-bottom: none;
+}
+
+.argumentoGrid {
+  grid-template-columns: 60% 30%;
+  gap: 5%;
+  display: grid;
+}
+
+.fichaTecnica {
+  background-color: #ffffff91;
+  height: 55%;
+  margin-top: 4%;
+}
+
+.fichaTecnica h2 {
+  justify-content: center;
+  margin-bottom: 10%;
+  display: flex;
+}
+
+.fichaTecnica li {
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
+.youtubeVideo {
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
