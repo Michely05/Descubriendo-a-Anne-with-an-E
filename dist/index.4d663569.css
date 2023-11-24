@@ -227,6 +227,14 @@ footer a:hover {
   font-size: 20px;
 }
 
+figure {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  display: flex;
+}
+
 .enlacesDeInteres a {
   color: #000;
   padding-left: 1%;

@@ -112,7 +112,7 @@ body {
   
   /*
     ========================================
-      Characters' Page
+      Personajes
     ========================================
     */
   
@@ -154,7 +154,7 @@ body {
   
   /*
     ========================================
-      submenu character pages
+      Submenu personajes
     ========================================
     */
   
@@ -195,7 +195,7 @@ body {
   
   /*
     ========================================
-      Argument Page
+      Argumento
     ========================================
     */
   
@@ -241,7 +241,7 @@ body {
   
   /*
     ========================================
-      Enlaces de Interés
+      Temas
     ========================================
     */
   
@@ -255,6 +255,15 @@ body {
     font-size: 20px;
     margin-bottom: 1%;
   }
+
+  figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+  }
+
   
   /*
     ========================================

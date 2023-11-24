@@ -109,7 +109,7 @@ footer a:hover {
 
 /*
   ========================================
-    Characters' Page
+    Personajes
   ========================================
   */
 .charactersGrid {
@@ -150,7 +150,7 @@ footer a:hover {
 
 /*
   ========================================
-    submenu character pages
+    Submenu personajes
   ========================================
   */
 .submenuGrid {
@@ -190,7 +190,7 @@ footer a:hover {
 
 /*
   ========================================
-    Argument Page
+    Argumento
   ========================================
   */
 .tituloArgumento {
@@ -235,7 +235,7 @@ footer a:hover {
 
 /*
   ========================================
-    Enlaces de Interés
+    Temas
   ========================================
   */
 .temas p {
@@ -247,6 +247,14 @@ footer a:hover {
   text-align: justify;
   font-size: 20px;
   margin-bottom: 1%;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1%;
 }
 
 /*
