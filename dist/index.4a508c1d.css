@@ -1,42 +1,41 @@
-@charset "UTF-8";
 body {
-  height: 100vh;
   color: #945600;
   background-color: #f6efa6;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 1% 10% 1% 10%;
+  height: 100vh;
+  margin: 1% 10%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
 }
 
 ul {
-  list-style-type: none;
+  text-align: start;
   margin: 0;
   padding: 0;
-  text-align: start;
+  list-style-type: none;
 }
 
 ul li {
-  display: inline;
   margin-right: 50px;
+  display: inline;
   position: relative;
 }
 
 .submenu {
+  text-align: center;
+  background-color: #945600cc;
+  border-radius: 5px;
+  width: 150px;
+  padding: 10px;
   display: none;
   position: absolute;
   top: 100%;
-  width: 150px;
   left: 0;
-  background-color: rgba(148, 86, 0, 0.8);
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  text-align: center;
+  box-shadow: 0 0 10px #00000080;
 }
 
 .submenu a {
-  display: block;
   color: #f6efa6;
   margin: 5px 0;
+  display: block;
 }
 
 li:hover .submenu {
@@ -44,8 +43,8 @@ li:hover .submenu {
 }
 
 nav a {
-  text-decoration: none;
   color: #945600;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -53,25 +52,24 @@ nav a:hover {
 }
 
 nav {
-  display: block;
-  margin: 0 auto 30px auto;
   width: 100%;
   height: auto;
+  margin: 0 auto 30px;
+  display: block;
 }
 
 .banner {
-  display: flex;
-  margin: 0 auto;
   border-radius: 10px;
   width: 100%;
   height: auto;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
+  display: flex;
 }
 
 .aboutGrid {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 3%;
+  display: grid;
 }
 
 .aboutText {
@@ -81,11 +79,11 @@ nav {
 
 footer {
   text-align: center;
-  color: white;
+  color: #fff;
   background-color: #19171d;
-  margin-left: -10%;
   width: 100%;
   height: 15%;
+  margin-left: -10%;
   position: absolute;
 }
 
@@ -98,8 +96,8 @@ footer {
 }
 
 footer a {
-  text-decoration: none;
   color: #f6efa6;
+  text-decoration: none;
 }
 
 footer a:hover {
@@ -107,37 +105,32 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/*
-  ========================================
-    Characters' Page
-  ========================================
-  */
 .charactersGrid {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 2%;
   margin-bottom: 3%;
+  padding: 2%;
+  display: grid;
 }
 
 .charactersGrid a {
-  text-decoration: none;
+  color: #945600;
   margin-top: 20px;
   font-size: 25px;
   font-weight: bold;
-  color: #945600;
+  text-decoration: none;
 }
 
 .box {
   text-align: center;
-  padding: 10px;
   border-radius: 8px;
+  padding: 10px;
   overflow: hidden;
 }
 
 .box img {
-  max-width: 70%;
   border-radius: 8px;
-  transition: 0.3s ease;
+  max-width: 70%;
+  transition: all .3s;
 }
 
 .box img:hover {
@@ -145,42 +138,37 @@ footer a:hover {
 }
 
 .box p:hover {
-  color: black;
+  color: #000;
 }
 
-/*
-  ========================================
-    submenu character pages
-  ========================================
-  */
 .submenuGrid {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5%;
-  margin-bottom: 3%;
   margin-top: 5%;
+  margin-bottom: 3%;
+  display: grid;
 }
 
 .submenuBox {
   text-align: start;
-  padding: 10px;
   border-radius: 8px;
+  padding: 10px;
 }
 
 .submenuBox img {
+  border-radius: 20px;
   width: 80%;
   margin-top: 13%;
-  border-radius: 20px;
 }
 
 .submenuBox section {
-  font-size: 20px;
   text-align: justify;
+  font-size: 20px;
 }
 
 .aboutLink {
+  color: #000;
   text-decoration: none;
-  color: #000000;
 }
 
 .aboutLink:hover {
@@ -188,56 +176,46 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/*
-  ========================================
-    Argument Page
-  ========================================
-  */
 .tituloArgumento {
   margin-top: 4%;
 }
 
 .argumentoGrid {
-  display: grid;
   grid-template-columns: 60% 30%;
   gap: 5%;
+  display: grid;
 }
 
 .fichaTecnica {
-  background-color: rgba(255, 255, 255, 0.568);
+  background-color: #ffffff91;
   height: 60%;
   margin-top: 4%;
 }
 
 .fichaTecnica h2 {
-  display: flex;
   justify-content: center;
   margin-bottom: 10%;
+  display: flex;
 }
 
 .fichaTecnica li {
-  margin-left: 10%;
   margin-bottom: 5%;
+  margin-left: 10%;
 }
 
 .argumentoText {
   text-align: justify;
-  font-size: 20px;
   margin-bottom: 8%;
+  font-size: 20px;
 }
 
 .youtubeVideo {
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 2%;
+  display: flex;
 }
 
-/*
-  ========================================
-    Enlaces de Interés
-  ========================================
-  */
 .temas p {
   text-align: justify;
   font-size: 20px;
@@ -245,20 +223,15 @@ footer a:hover {
 
 .listaTemas {
   text-align: justify;
-  font-size: 20px;
   margin-bottom: 1%;
+  font-size: 20px;
 }
 
-/*
-  ========================================
-    Enlaces de Interés
-  ========================================
-  */
 .enlacesDeInteres a {
-  text-decoration: none;
-  font-size: 20px;
-  color: black;
+  color: #000;
   padding-left: 1%;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .enlacesDeInteres a:hover {
@@ -267,10 +240,10 @@ footer a:hover {
 }
 
 .enlacesDeInteres p {
-  text-decoration: none;
+  color: #945600;
   margin-top: 20px;
   font-size: 20px;
-  color: #945600;
+  text-decoration: none;
 }
 
 .enlacesDeInteres li {
@@ -278,4 +251,4 @@ footer a:hover {
   margin-left: 3%;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=index.4a508c1d.css.map */

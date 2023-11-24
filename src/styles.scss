@@ -1,0 +1,288 @@
+$color-principal: #f6efa6;
+$color-secundario: #945600;
+
+body {
+    height: 100vh;
+    color: $color-secundario;
+    background-color: $color-principal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 1% 10% 1% 10%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 50px;
+    position: relative;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 150px;
+    left: 0;
+    background-color: rgba(148, 86, 0, 0.8);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .submenu a {
+    display: block;
+    color: $color-principal;
+    margin: 5px 0;
+  }
+  
+  li:hover .submenu {
+    display: block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: $color-secundario;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+  
+  nav {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  
+  .aboutGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 3%;
+  }
+  
+  .aboutText {
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    color: white;
+    background-color: #19171d;
+    margin-left: -10%;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+  }
+  
+  .footerLine1 {
+    margin-top: 2%;
+  }
+  
+  .footerLine2 {
+    margin-bottom: 2%;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: $color-principal;
+  }
+  
+  footer a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /*
+    ========================================
+      Characters' Page
+    ========================================
+    */
+  
+  .charactersGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+  
+  .charactersGrid a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: $color-secundario;
+  }
+  
+  .box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .box img {
+    max-width: 70%;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .box img:hover {
+    transform: scale(1.1);
+  }
+  
+  .box p:hover {
+    color: black;
+  }
+  
+  /*
+    ========================================
+      submenu character pages
+    ========================================
+    */
+  
+  .submenuGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+  }
+  
+  .submenuBox {
+    text-align: start;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .submenuBox img {
+    width: 80%;
+    margin-top: 13%;
+    border-radius: 20px;
+  }
+  
+  .submenuBox section {
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .aboutLink {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .aboutLink:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /*
+    ========================================
+      Argument Page
+    ========================================
+    */
+  
+  .tituloArgumento {
+    margin-top: 4%;
+  }
+  
+  .argumentoGrid {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 5%;
+  }
+  
+  .fichaTecnica {
+    background-color: rgba(255, 255, 255, 0.568);
+    height: 60%;
+    margin-top: 4%;
+  }
+  
+  .fichaTecnica h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  
+  .fichaTecnica li {
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .argumentoText {
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 8%;
+  }
+  
+  .youtubeVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  
+  /*
+    ========================================
+      Enlaces de Interés
+    ========================================
+    */
+  
+  .temas p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .listaTemas {
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 1%;
+  }
+  
+  /*
+    ========================================
+      Enlaces de Interés
+    ========================================
+    */
+  
+  .enlacesDeInteres a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding-left: 1%;
+  }
+  
+  .enlacesDeInteres a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .enlacesDeInteres p {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: $color-secundario;
+  }
+  
+  .enlacesDeInteres li {
+    margin-top: 20px;
+    margin-left: 3%;
+  }
+  
